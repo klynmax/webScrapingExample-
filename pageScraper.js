@@ -1,5 +1,7 @@
 const scraperObject = {
+
     url: 'http://books.toscrape.com',
+    
     async scraper(browser, category){
         let page = await browser.newPage();
         console.log(`Navigating to ${this.url}...`);
